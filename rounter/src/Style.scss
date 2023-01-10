@@ -1,0 +1,16 @@
+@import "./Stytwo.scss";
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    .para{
+        color:aqua;
+        font-size:20px;
+    }
+    .import{
+        color:$blue;
+    }
+    .mixin{
+        @include text;
+    }
+}
